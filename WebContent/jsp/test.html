@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>meSpeak.js: Text-to-Speech on the Web</title>
+<meta name="description"
+	content="meSpeak.js (modulary enhanced speak.js) is a 100% client-side JavaScript text-to-speech library based on the speak.js project." />
+
+<script type="text/javascript" src="mespeak.js"></script>
+<script type="text/javascript">
+	meSpeak.loadConfig("mespeak_config.json");
+	meSpeak.loadVoice("voices/en/en.json");
+	
+	function spk() {
+		alert("Hello");
+		alert(txt);
+		meSpeak.speak('hello world');
+	}
+</script>
+
+</head>
+
+<body onload="spk()">
+</body>
+</html>

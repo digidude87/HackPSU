@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.custom.i18n.resources" value="ApplicationResources" />
+
+	<package name="default" extends="struts-default, json-default"
+		namespace="/">
+		<action name="chooseFile" class="com.main.VoiceAction" method="chooseFile">
+			<result name="success">/jsp/viewfaded.jsp</result>
+			<result name="input">/jsp/viewfaded.jsp</result>
+			<result name="error">/jsp/viewfaded.jsp</result>
+			<param name="filesPath">myfiles</param>
+
+			<interceptor-ref name="defaultStack">
+				<param name="fileUpload.maximumSize">10485760</param>
+				<param name="fileUpload.allowedTypes">text/plain</param>
+			</interceptor-ref>
+		</action>
+
+		<action name="chooseFileDys" class="com.main.VoiceAction"
+			method="chooseFile">
+			<result name="success">/jsp/dyslexia.jsp</result>
+			<result name="input">/jsp/dyslexia.jsp</result>
+			<result name="error">/jsp/dyslexia.jsp</result>
+		</action>
+
+		<action name="gohome" class="com.main.VoiceAction" method="goHome">
+			<result name="success">/jsp/index.jsp</result>
+		</action>
+
+		<action name="loadVisual" class="com.main.VoiceAction" method="loadVisual">
+			<result name="success">/jsp/viewfaded.jsp</result>
+		</action>
+
+		<action name="loadDyslexic" class="com.main.VoiceAction"
+			method="loadDyslexic">
+			<result name="success">/jsp/dyslexia.jsp</result>
+		</action>
+		<action name="underconstruction" class="com.main.VoiceAction"
+			method="underconstruction">
+			<result name="success">/jsp/underconstruction.jsp</result>
+		</action>
+
+	</package>
+</struts>
