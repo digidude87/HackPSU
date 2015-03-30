@@ -41,7 +41,7 @@
 				<div class="container">
 					<div class="navbar-header">
 						<!-- Logo Starts -->
-						<div class="navbar-brand">VISION.com</div>
+						<div class="navbar-brand">VOICE.com</div>
 						<!-- #Logo Ends -->
 
 
@@ -52,10 +52,10 @@
 					<div class="navbar-collapse  collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#" onclick="nosubmit('loadVisual')">Visually
-									Impaired Candidates</a>
-							</li>
+									Impaired Candidates</a></li>
 							<li><a href="#" onclick="nosubmit('loadDyslexic')">Dyslexic
-									Candidates</a></li>
+									Candidates</a>
+							</li>
 							<!-- <li><a href="#contactus">Contact Us</a></li> -->
 						</ul>
 					</div>
@@ -81,15 +81,15 @@
 						<div style="padding: 100px 0 20px 0">
 							<div class="fronttext">
 								<h2 class="bgcolor">
-									<span class="glyphicon glyphicon-eye-close"></span> VISION.com
-									....
+									<span class="glyphicon glyphicon-eye-close"></span>&nbsp;<span
+										class="glyphicon glyphicon-volume-up"></span> VOICE.com ....
 								</h2>
 								<br>
 								<p>
-									A website dedicated developed with the VISION of assisting
+									A website dedicated developed with the vision of assisting
 									students with disabilities like blindness and dyslexia in their
 									academics by providing a platform to convert readable text into
-									voice media. <br> <br> Let's being about a change ...
+									voice media and being the VOICE they listen to. <br> <br> Let's being about a change ...
 									LET'S MAKE SOME LIVES BETTER
 								</p>
 							</div>
@@ -98,12 +98,14 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-12">
-						<div class="textContainer" >"Thirteen-year-old Eli, has a
-							dyslexic friend who studies by making a Power Point presentation on her
-							computer of the material she'll be tested on. She listens to it
-							several times and takes notes. And if I did this on a Mac, I
-							could even use the computer's voice feature to read the material
-							to me.".....<br><br>VISION.com aims to BRIDGE this dependency on MAC's</div>
+						<div class="textContainer">
+							"Thirteen-year-old Eli, has a dyslexic friend who studies by
+							making a Power Point presentation on her computer of the material
+							she'll be tested on. She listens to it several times and takes
+							notes. And if I did this on a Mac, I could even use the
+							computer's voice feature to read the material to me.".....<br>
+							<br>VISION.com aims to BRIDGE this dependency on MAC's
+						</div>
 					</div>
 				</div>
 			</div>

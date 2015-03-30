@@ -145,7 +145,7 @@
 				<div class="container">
 					<div class="navbar-header">
 						<!-- Logo Starts -->
-						<a href="#" class="navbar-brand" onclick="nosubmit('gohome')">VISION.com</a>
+						<a href="#" class="navbar-brand" onclick="nosubmit('gohome')">VOICE.com</a>
 						<!-- #Logo Ends -->
 
 

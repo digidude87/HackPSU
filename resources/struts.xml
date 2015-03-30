@@ -7,19 +7,18 @@
 	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
 	<constant name="struts.devMode" value="false" />
 	<constant name="struts.custom.i18n.resources" value="ApplicationResources" />
+	<constant name="struts.multipart.saveDir" value="/uploads" />
 
 	<package name="default" extends="struts-default, json-default"
 		namespace="/">
 		<action name="chooseFile" class="com.main.VoiceAction" method="chooseFile">
+			<interceptor-ref name="defaultStack" />
+			<interceptor-ref name="fileUpload">
+				<param name="allowedTypes">text/plain</param>
+			</interceptor-ref>
 			<result name="success">/jsp/viewfaded.jsp</result>
 			<result name="input">/jsp/viewfaded.jsp</result>
 			<result name="error">/jsp/viewfaded.jsp</result>
-			<param name="filesPath">myfiles</param>
-
-			<interceptor-ref name="defaultStack">
-				<param name="fileUpload.maximumSize">10485760</param>
-				<param name="fileUpload.allowedTypes">text/plain</param>
-			</interceptor-ref>
 		</action>
 
 		<action name="chooseFileDys" class="com.main.VoiceAction"

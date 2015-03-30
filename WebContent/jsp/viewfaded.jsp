@@ -119,7 +119,7 @@
 				<div class="container">
 					<div class="navbar-header">
 						<!-- Logo Starts -->
-						<a href="#" class="navbar-brand" onclick="nosubmit('gohome')">VISION.com</a>
+						<a href="#" class="navbar-brand" onclick="nosubmit('gohome')">VOICE.com</a>
 						<!-- #Logo Ends -->
 
 
@@ -166,7 +166,7 @@
 							enctype="multipart/form-data">
 							<div class="input-group">
 								<input type="file" class="form-control"
-									placeholder=" Select a file to upload ...." name="inpFile"
+									placeholder=" Select a file to upload ...." name="upload"
 									id="uploadFile" onchange="CheckFileName()"> <span
 									class="input-group-btn">
 									<button type="submit" class="btn btn-search" id="submit"
