@@ -9,7 +9,7 @@ Also for the visually impaired, the controls to Pause/Play video are defined by 
 
 The project currently supports only text files/plain text for text input.
 
-Hosted at https://voiceassist.herokuapp.com/   (not working as expected due to some issue with file uploads. working fine on localhost and will demo through localhost)
+Hosted at https://voiceassist.herokuapp.com/   (not working as expected due to some issue with file uploads which is induced when a project is deployed through war on heroku. Working fine on localhost and will demo through localhost)
 
 
 Regards
